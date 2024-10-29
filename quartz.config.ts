@@ -8,12 +8,12 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "A Pattern Language",
+    pageTitle: "SPCTRE - WIKI",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "null",
-    },
+    //analytics: {
+    //  provider: "null",
+    //},
     locale: "en-US",
     baseUrl: "patternlanguage.cc",
     ignorePatterns: ["private", "templates", ".obsidian"],
