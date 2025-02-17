@@ -18,11 +18,9 @@ const config: QuartzConfig = {
     baseUrl: "patternlanguage.cc",
     ignorePatterns: [
     	".obsidian/",
-    	//"**/*.patch",
     	"**/*.pdf",
     	"**/*.canvas",
       "**/*.excalidraw",
-    	//"Attachments/!(public-|Public-)*.*",
     ],
     defaultDateType: "modified",
     theme: {
