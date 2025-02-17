@@ -16,7 +16,13 @@ const config: QuartzConfig = {
     //},
     locale: "en-US",
     baseUrl: "patternlanguage.cc",
-    ignorePatterns: ["private", "templates", ".obsidian", "*.pdf", "*.excalidraw"],
+    ignorePatterns: [
+    	".obsidian/",
+    	//"**/*.patch",
+    	"**/*.pdf",
+    	"**/*.canvas",
+    	//"Attachments/!(public-|Public-)*.*",
+    ],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
