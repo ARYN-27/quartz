@@ -21,6 +21,7 @@ const config: QuartzConfig = {
     	//"**/*.patch",
     	"**/*.pdf",
     	"**/*.canvas",
+      "**/*.excalidraw",
     	//"Attachments/!(public-|Public-)*.*",
     ],
     defaultDateType: "modified",
