@@ -21,7 +21,6 @@ const config: QuartzConfig = {
     	"*.pdf",
     	"*.canvas",
       "*.excalidraw",
-      "!*.md",
     ],
     defaultDateType: "modified",
     theme: {
